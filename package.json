@@ -1,0 +1,20 @@
+{
+  "name": "litestore",
+  "version": "0.1.0",
+  "description": "Zero-dependency global state for the browser",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ethan Miller",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}
