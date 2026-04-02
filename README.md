@@ -10,7 +10,7 @@ Other solutions are bloated, with confusing APIs. I wanted to see if I could imp
 
 ### Zero dependencies
 
-Install litestore with the peace of mind that the next (supply-chain malware attack)[https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/] on npm will come from a different package, not this one.
+Install litestore with the peace of mind that the next [supply-chain malware attack](https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/) on npm will come from a different package, not this one.
 
 ### Atomic operations
 
