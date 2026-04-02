@@ -2,7 +2,7 @@
  * Create a new webstate store.
  *
  * @param {Object} initialState - The initial state shape and values.
- * @returns {Object} Store with get, set, and subscribe methods.
+ * @returns {Object} Store with get, set, reset, and subscribe methods.
  */
 export function createStore(initialState = {}) {
   let state = structuredClone(initialState);

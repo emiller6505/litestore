@@ -1,4 +1,4 @@
-# litestore
+# rootstore
 
 A zero-dependency, lightweight global state store for the browser.
 
@@ -10,7 +10,7 @@ Other solutions are bloated, with confusing APIs. I wanted to see if I could imp
 
 ### Zero dependencies
 
-Install litestore with the peace of mind that the next [supply-chain malware attack](https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/) on npm will come from a different package, not this one.
+Install rootstore with the peace of mind that the next [supply-chain malware attack](https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/) on npm will come from a different package, not this one.
 
 ### Atomic operations
 
@@ -22,7 +22,7 @@ You define your store's shape once at initialization. From that point on, any pa
 
 ### Framework-agnostic
 
-litestore doesn't know or care what renders your UI. It exposes a subscription mechanism that any rendering library can hook into. First-class bindings for React (and others) can be built as thin adapter layers on top, not baked into the core.
+rootstore doesn't know or care what renders your UI. It exposes a subscription mechanism that any rendering library can hook into. First-class bindings for React (and others) can be built as thin adapter layers on top, not baked into the core.
 
 ## Designed for
 
